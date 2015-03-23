@@ -5,6 +5,11 @@ various [Amazon SNS](http://aws.amazon.com/sns/) messages from services like
 Cloudwatch, autoscaling, and Stackdriver. Each message is converted into a rich
 [Slack](https://slack.com/) message and sent to the specified channel.
 
+GoodGuide
+---------
+
+To deploy a new version of this app to heroku, push to the `deployment/heroku` branch.
+
 Deployment
 ----------
 Deploy the code to Heroku under your own app. This should be as easy as cloning,
