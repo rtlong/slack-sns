@@ -57,6 +57,8 @@ function message (body, res, channel) {
     var msg = JSON.parse(body.Message);
   } catch (ex) {}
 
+  console.log('[ORIGINAL MESSAGE]', msg)
+
   var opts;
   if (msg.incident) {
     opts = handlers.stackdriver(msg);
