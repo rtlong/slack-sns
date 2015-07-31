@@ -11,10 +11,11 @@
   "author": "Daniel Lamando",
   "license": "Apache-2.0",
   "dependencies": {
-    "logfmt": "^1.1.2",
-    "express": "^4.3.0",
+    "babel": "^5.8.19",
     "body-parser": "^1.2.0",
-    "babel": "^5.8.19"
+    "express": "^4.3.0",
+    "logfmt": "^1.1.2",
+    "ramda": "^0.17.1"
   },
   "engines": {
     "node": "0.10.x"
