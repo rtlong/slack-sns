@@ -5,11 +5,6 @@ various [Amazon SNS](http://aws.amazon.com/sns/) messages from services like
 Cloudwatch, autoscaling, and Stackdriver. Each message is converted into a rich
 [Slack](https://slack.com/) message and sent to the specified channel.
 
-GoodGuide
----------
-
-To deploy a new version of this app to heroku, push to the `deployment/heroku` branch.
-
 Deployment
 ----------
 Deploy the code to Heroku under your own app. This should be as easy as cloning,
@@ -17,8 +12,8 @@ running `heroku apps:create <NAME>`, and pushing.
 
 To authorize your application with Slack, go to the
 [new integration](https://slack.com/services/new) page and create an Incoming
-Webhook. You'll get a url in the format of 
-`https://hooks.slack.com/services/TOKEN`. Take note of this token 
+Webhook. You'll get a url in the format of
+`https://hooks.slack.com/services/TOKEN`. Take note of this token
 and give the Heroku app your Slack information:
 
 ```
